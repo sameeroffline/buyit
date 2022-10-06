@@ -1,0 +1,126 @@
+/* .sidenav{
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    width:250px;
+    height: 1000px;
+    background-color: aquamarine;
+
+} */
+
+    /* top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    width: 250px;
+    height: 100px;
+    background-color: blanchedalmond; */
+
+
+    /* height: 100%;
+    width: 200px;
+    bottom: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 55px;
+    left: 0;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    overflow: scroll;
+    padding-top: 15px; */
+
+table {
+
+    
+    position: fixed;
+    top: 55px;
+    left: 0;
+    top: 0%;
+    padding-top: 15px;
+    padding-left: 10px; 
+    
+  
+}
+
+.sidenav {
+    background-color: gray;
+    color: black;
+    overflow-y: scroll;
+    top: 50px;
+    height:fill;
+    position: fixed;
+     
+    
+}
+
+ /* @media screen and (max-height: 400px) {
+     table {padding-top: 50px;
+    float: none;}
+    table {font-size: 18px;}
+     
+ } */
+
+ @media(max-width: 999px){
+    .menu{
+      position: fixed;
+      left: -280px;
+      top:64;
+      width: 280px;
+      height: 100%;
+      background: #222;
+      transition: 0.4s ease-in-out;
+    
+    }
+    .menu ul li {
+      display: block;
+      text-align: left;
+      margin: 0;
+      padding: 10px 0 10px 26px;
+      border-bottom: 1px solid #312f2f;
+    
+    }
+    .menu_icon{
+      display: inline-block;
+      position: relative;
+      right: 0;
+      top: 20 px;
+    
+    }
+    
+    
+    .menu_icon span {
+      width: 32px;
+      height: 3px;
+      background: #ffffff;
+      display: block;
+      transition: 0.2s ease-in-out;
+    
+    }
+    .menu_icon span:nth-child(2) {
+      margin: 4px 0;
+    
+    }
+    .menu_iconClass span:nth-child(2){
+    
+    display: none;
+    }
+    
+    .menu_iconClass span:nth-child(1){
+    
+      transform: rotate(40deg);
+    }
+    
+    
+    .menu_iconClass span:nth-child(3){
+    
+      transform: rotate(-40deg);
+      margin-top: -3px;
+    }
+    
+    .menuClasse{
+    
+    right: 0;
+    transition: 0.4s ease-in-out;
+    
+    }
+    }
+    
